@@ -119,6 +119,6 @@ client.once('ready' , () => {
         }
     });
 });
-client.login('Nzg3MjAzODAxMTY1MDcwMzM3.X9Riqw.YiItVi6FatF7PkP4WHU9KWWM0mQ');
-// usual set activity : client.user.setActivity('🐈 𝐧𝐞𝐤𝐨 𝐜𝐮𝐥𝐭 ⸝⸝ | minagi at your service! <3 | prefix is ,', { type: 'WATCHING'});
+client.login('TOKEN'); // I accidentally left my bot token out here oops so ill just delete that...
+
 
