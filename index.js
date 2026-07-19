@@ -2,10 +2,9 @@
 this is the file where the main settings are found! 
 remember to do cmd+s and then do node . in the terminal to save whatever you've done! (or just enable autosave lmao)
 have fun ^^ */
-
+require('dotenv').config();
 const Discord = require('discord.js');
 const client = new Discord.Client();
-
 require('discord-buttons')(client);
 let disbut = require('discord-buttons');
 
@@ -119,6 +118,6 @@ client.once('ready' , () => {
         }
     });
 });
-client.login('TOKEN'); // I accidentally left my bot token out here oops so ill just delete that...
+client.login('process.env.DISCORD_TOKEN'); // I accidentally left my bot token out here oops so ill just delete that...
 
 
