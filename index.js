@@ -108,6 +108,8 @@ client.on('clickButton', async (button) => {
 
 
 //put these listed below at very bottom of script ⬇⬇⬇
+const token = process.env.DISCORD_TOKEN?.trim();
+
 client.once('ready' , () => {
     console.log('minagichan is online!');
     client.user.setPresence({
@@ -118,6 +120,6 @@ client.once('ready' , () => {
         }
     });
 });
-client.login('process.env.DISCORD_TOKEN'); // I accidentally left my bot token out here oops so ill just delete that...
+client.login(token); // I accidentally left my bot token out here oops so ill just delete that...
 
 
