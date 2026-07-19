@@ -115,7 +115,7 @@ client.once('ready' , () => {
         status: 'dnd',
         activity: {
             type: 'WATCHING',
-            name: 'nagi procrastinate again',
+            name: 'nagi suffer',
         }
     });
 });
