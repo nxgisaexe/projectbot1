@@ -1,8 +1,10 @@
 # my first discord bot, minagichan!
-
+This is a comically bad first discord bot I made in 2021, minagichan. 
+If you're wondering about the bot token that is public in an older commit, it has been reset.
 # NOTE: This is a very old (and discontinued) project. 
 ### Some of the command files are lost/deleted when I changed my setup, hence this is a husk of the full project.
 -------------------------
+I also had to delete some packages that no longer exist.
 Back then, this bot had the following features:
 ## Features
 - Made with JavaScript, Node.js, and Discord.js.
